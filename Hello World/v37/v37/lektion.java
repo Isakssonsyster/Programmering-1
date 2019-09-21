@@ -39,7 +39,7 @@ System.out.println("Vad ‰r ditt telefonummer?");
 		String str6 = input.nextLine();
 		
 		System.out.println("\nInformation");
-		System.out.println("\nNAMN:\t\t" + str1 + "\n≈LDER:\t\t" + str2 + "\nADRESS\t\t" + str3 + "\n\t\t" + str4 + "\t" + str5 + "\nTELEFON\t\t" + str6);
+		System.out.println("\nNAMN:\t\t" + str1 + "\n≈LDER:\t\t" + str2 + "\nADRESS:\t\t" + str3 + "\n\t\t" + str4 + "\t" + str5 + "\nTELEFON\t\t" + str6);
 	}
 
 		}
