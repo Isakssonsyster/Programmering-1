@@ -3,13 +3,11 @@ package StringReverse;
 import java.util.Scanner;
 
 public class StringReverse {
-	public static void main(String[] args) {
-		int Name = 0;
-		stringName(Name);
-	}
-
+	
 	private static void stringName(int name) {
 		// TODO Auto-generated method stub
+		int Name = 0;
+		stringName(Name);
 		Scanner read = new Scanner(System.in);
 		String str = read.nextLine();
 		StringBuilder sb = new StringBuilder(str);
@@ -17,16 +15,21 @@ public class StringReverse {
 	}
 	
 
-public static void C(String[] args) {
+	
 
-	int Word = 0;
-	stringC(Word);
-}
 
-private static void stringC(int word) {
+private static void stringCount(String str, char c) {
 	// TODO Auto-generated method stub
 	Scanner input = new Scanner(System.in);
+	int repeatsOfC = 0;
 	String str = input.next();
+	stringCount(str, c);
+	int count = 0;
+	char c = 
+
 	
 }
+
+
+	
 }
