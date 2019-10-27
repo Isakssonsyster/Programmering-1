@@ -16,4 +16,17 @@ public class StringReverse {
 		System.out.println(sb.reverse().toString());
 	}
 	
+
+public static void C(String[] args) {
+
+	int Word = 0;
+	stringC(Word);
+}
+
+private static void stringC(int word) {
+	// TODO Auto-generated method stub
+	Scanner input = new Scanner(System.in);
+	String str = input.next();
+	
+}
 }
