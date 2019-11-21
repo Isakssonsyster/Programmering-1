@@ -5,21 +5,22 @@ import java.util.Scanner;
 public class UppgiftV45 {
 	
 	public static void main(String[] args) {
-		System.out.println("Method 1: ");
-		CtoFH();
+		
+		System.out.println(FahrenheitToCelsius(50));
+		
 	}
 	
-	public static void CtoFH() {
-		Scanner input = new Scanner(System.in); // Gör en ny scanner
-		
-		
-		System.out.println("Skriv in grader i fahrenheit: ");
-		
-		double grader = input.nextInt(); // Fahrenheiten man ska skriva in
-		double celsius = grader / 33.8; // Räknar ut från fahrenheit till celsius
+	public static double FahrenheitToCelsius(double fahrenheit) {
+		double FahrenheitToCelsius = (fahrenheit-32)*5/(9);
+		return FahrenheitToCelsius;
+			}
 
-		System.out.println("Graderna i celsius: " + celsius);
+	public static double KtoC(double Kelvin) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Skriv in grader i Kelvin: ")
+		return Kelvin;
 		
 	}
-
+	
 }
