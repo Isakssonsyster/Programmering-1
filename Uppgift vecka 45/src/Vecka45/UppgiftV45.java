@@ -6,8 +6,7 @@ public class UppgiftV45 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(FahrenheitToCelsius(50));
-		
+		System.out.println(kelvinToCelsius(0));
 	}
 	
 	public static double FahrenheitToCelsius(double fahrenheit) {
@@ -15,11 +14,9 @@ public class UppgiftV45 {
 		return FahrenheitToCelsius;
 			}
 
-	public static double KtoC(double Kelvin) {
-		Scanner input = new Scanner(System.in);
-		
-		System.out.println("Skriv in grader i Kelvin: ")
-		return Kelvin;
+	public static double kelvinToCelsius(double kelvin) {
+		double kelvinToCelsius = kelvin-273.15;
+		return kelvinToCelsius;
 		
 	}
 	
