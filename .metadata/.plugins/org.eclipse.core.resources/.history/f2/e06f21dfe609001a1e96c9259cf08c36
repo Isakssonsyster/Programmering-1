@@ -1,0 +1,23 @@
+package Vecka45;
+
+import java.util.Scanner;
+
+public class UppgiftV45 {
+	
+	public static void main(String[] args) {
+		CtoFH();
+	}
+	
+	public static void CtoFH() {
+		Scanner input = new Scanner(System.in);
+		
+		double fahrenheit = 0;
+		double grader = input.nextInt();
+		double celsius = grader / 33.8;
+
+		System.out.println("Skriv in grader i fahrenheit: ");
+		System.out.println("Graderna i celsius: " + celsius);
+		
+	}
+
+}

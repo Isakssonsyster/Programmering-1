@@ -13,7 +13,7 @@ public class UppgiftV45 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(fluidPressure(FluidTable.WATER, 10));
+		System.out.println(pressureUnderWater(10));
 		
 	}
 	
@@ -33,12 +33,17 @@ public class UppgiftV45 {
 	
 	public static double fluidPressure(FluidTable fluid, double deep) {
 		
-		double fluidPressure = FluidTable.WATER.density * g_swe * deep;
+		double fluidPressure = fluid.density * g_swe * deep;
 		return fluidPressure;
 		
 	}
 	
-	
+	public static double pressureUnderWater(double deep) {
+		
+		double pressureUnderWater = FluidTable.WATER.density * g_swe * deep;
+		return pressureUnderWater;
+		
+	}
 
 	
 }

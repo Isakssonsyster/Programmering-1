@@ -20,14 +20,22 @@ public class StringReverse {
 
 private static void stringCount(String str, char c) {
 	// TODO Auto-generated method stub
-	Scanner input = new Scanner(System.in);
-	int repeatsOfC = 0;
-	String str = input.next();
-	stringCount(str, c);
-	int count = 0;
-	char c = 
-
+	// Gör en method till uppgift 3 som visar att den ska räkna ut antalet gånger C återkommer i en string
+	Scanner input = new Scanner(System.in); // Skapar en Scanner för input
+	int theWord = input.nextInt();
+	//Skapar en variabel som man kan räkna ut antal C
 	
+	
+	int repeatsOfC = 0;
+	
+	
+	if (str.charAt(theWord) == c) {
+		repeatsOfC++;
+	}
+	
+	// Räknar ut hur många gånger C skrivs i Stringen man skriver in
+	
+	return reopeatsOfC; //Ska visa hur många gånger som C används
 }
 
 
